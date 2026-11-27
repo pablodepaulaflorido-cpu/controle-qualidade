@@ -1,3 +1,4 @@
+
 # Controle de Qualidade Industrial com Python
 
 Projeto de portfólio que simula uma rotina de inspeção industrial: lê medições de peças em CSV, identifica peças aprovadas e reprovadas, calcula estatísticas e gera arquivos de resultado.
@@ -24,13 +25,11 @@ controle_qualidade/
 ├── README.md
 ├── requirements.txt
 ├── dados/
-│   ├── medicoes.csv
-│   ├── aprovadas.csv       # gerado ao executar
-│   └── reprovadas.csv      # gerado ao executar
-├── src/
-│   └── analise.py
-└── tests/
-    └── test_analise.py
+│   └── medicoes.csv
+└── src/
+    ├── analise.py
+    └── tests/
+        └── test_analise.py
 ```
 
 ## Como executar
@@ -105,14 +104,3 @@ Os resultados são calculados a partir dos dados fictícios fornecidos no projet
 - Criar uma interface simples para consulta dos resultados.
 - Investigar estabilidade do processo com cartas de controle.
 
-## Git e GitHub
-
-Na pasta principal:
-
-```bash
-git init
-git add .
-git commit -m "Adiciona análise de qualidade industrial com Python"
-```
-
-Crie um repositório no GitHub e siga as instruções da plataforma para conectar o repositório local e enviar o projeto.
